@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding: 30px 80px 0px 80px;
+    background-image: url(img/bg-header.svg);
+    height: 560px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header img#bgHeader {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 128.5%;
+    color: #FFFFFF;
+    width: 55%;
+    margin-left: 120px;
+    margin-bottom: 50px;
+
+}
+
+header p {
+    margin-left: 120px;
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180.5%;
+    color: #FFFFFF;
+}
+
+
+section#beneficios {
+    background-color: #EAECE5;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#beneficios div.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+section#sectionVideo {
+    display: flex;
+}
+
+section#sectionVideo div#firstDiv {
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+section#sectionVideo div#firstDiv div#video_bg {
+    background-image: url(img/bg-video.svg);
+    width: 89%;
+    height: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+section#sectionVideo div#firstDiv div#video_bg img {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+section#sectionVideo div#firstDiv div#video_bg img:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+    filter: brightness(0);
+}
+
+section#sectionVideo div#secondDiv{
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+section#sectionVideo div#secondDiv div.conteudoVideo {
+    background-color: white;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section#sectionVideo div#secondDiv div.conteudoVideo h1 {
+    width: 60%;
+    margin-left: 35px;
+    color:#247BA0;
+}
+
+section#sectionVideo div#secondDiv div.conteudoVideo p{
+    width: 90%;
+    margin-left: 35px;
+    font-size: 1rem;
+    color: #383838;
+}
+
+
+section#sectionAlunos {
+    height: 60vh;
+    width: 100%;
+    background-color: #247BA0;
+    display: flex;
+    flex-direction: column;
+}
+
+section#sectionAlunos div#sectionAlunos_h1 {
+    color: white;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards {
+    width: 100%;
+    height: 60%;
+    background-color: #247BA0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards {
+    width: 400px;
+    height: 130px;
+    background-color: #EAECE5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transform: scale(1);
+    transition: 500ms;
+    
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards img#perfilOne {
+    border-radius: 100px;
+    width: 70px;
+}
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimento {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards span {
+    width: 100%;
+    font-size: 14px;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimento span#descricao {
+    width: 85%;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimento span#autor {
+   font-weight: 600;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimentoSegundoBloco {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimentoSegundoBloco span#descricao {
+    width: 85%;
+}
+
+section#sectionAlunos div#sectionAlunos_Cards div.cards div#depoimentoSegundoBloco span#autor {
+   font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    height: 90vh;
+}
+
+main form {
+    gap: 15px;
+    width: 45%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main form div#title {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main form div#title h1 {
+    color: #247BA0;
+}
+
+main form div#inputsPadroes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+main form div#inputsPadroes input#inputPadrao {
+    width: 100%;
+    border: 2px solid #247BA0;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    height: 40px;
+    padding: 10px;
+}
+
+main form div#inputsPadroes input#inputPadrao:focus {
+    outline: 2px solid #247BA0;
+}
+
+main form div#inputsPadroes div.checkbox {
+    margin-top: 15px;
+    width: 300px;
+    /* background-color: #247BA0; */
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+main form div#inputsPadroes div.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+main form div#inputsPadroes div.checkbox label#yes {
+    margin-right: 10px;
+}
+
+main form div#buttonEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form div#buttonEnviar button {
+    width: 94%;
+    height: 40px;
+    font-size: 20px;
+    border:  2px solid #247BA0;
+    background-color: #247BA0;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 500ms;
+    margin-bottom: 20px;
+}
+
+main form div#buttonEnviar button:hover {
+    border:  2px solid #247BA0;
+    font-weight: 600;
+    transition: 500ms;
+    background-color: white;
+    color: #247BA0;
+    
+}
+
+footer {
+    background-color: #247BA0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .linha1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+}
+
+
+footer h5 {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+
+}
+
+footer .endereco {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    width: 31.5%;
+}
+
+footer ul li {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 25px 0px 25px 0px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+footer ul li:hover {
+    transform: scale(1.1);
+    color: rgb(197, 197, 197);
+}
+
+footer .linha2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+footer .linha2 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+footer .linha2 a:hover {
+    color: rgb(197, 197, 197);
+}
