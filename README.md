@@ -1,72 +1,46 @@
 # Landing Page - DNC 📑
 
-## Projeto criado para o desenvolvimento de uma Landing Page da escola DNC.
+### Índice
+<ul>
+  <a href="#descrição"><li>Descrição</li></a>
+  <a href="#interfaces"><li>Interfaces</li></a>
+  <a href="#estrutura-do-projeto"><li>Estrutura do projeto</li></a>
+  <a href="#deployment-"><li>Configuração de Desenvolvimento</li></a>
+  <a href="#como-rodar"><li>Como rodar</li></a>
+</ul>
+
+### Descrição
+Projeto criado para o desenvolvimento de uma Landing Page, task da Escola DNC.
+
 <hr>
 
-## Modo Desktop 💻
+### Interfaces
+Modo Desktop 💻
 
 ![desktop](https://user-images.githubusercontent.com/115199808/224064465-fd1ab778-5bcb-405e-a203-41cde7213c0d.png)
 
 <hr>
 
-## Parte 1 - Estruturação do Header + Seção Benefícios
-
-### Estruturação via HTML5 e estilização via CSS3.
-
-![imagem_2023-03-09_122834491](https://user-images.githubusercontent.com/115199808/224072135-1b3fa1d2-ce80-4372-8e37-683d5c4cf771.png)
-
-<hr>
-
-## Parte 2  - Estruturação da Seção com Vídeo
-
-### Estruturação via HTML5 e estilização via CSS3.
-
-![videoLanding](https://user-images.githubusercontent.com/115199808/224073277-5bbb2f2e-979b-4502-9ea2-1781461b83bd.gif)
-
-<hr>
-
-## Parte 3 - Estruturação da Seção de Aunos
-
-### Estruturação via HTML5 e estilização via CSS3. Aplicado uma propriedade de CSS3 "transform/scale" no efeito "hover" do elemento.
-
-![alunosLanding](https://user-images.githubusercontent.com/115199808/224074653-252c7436-994d-481b-a034-3f9807d140b5.gif)
-
-<hr> 
-
-## Parte 4 - Estruturação do Formulário
-
-### Estruturação via HTML5 e estilização via CSS3. Aplicado um efeito de "focus" nos input's e um "hover" no botão.
-
-![formLanding](https://user-images.githubusercontent.com/115199808/224075875-d7c30f9a-8d3b-48f4-aa59-71247f849d44.gif)
-
-
-<hr> 
-
-## Parte 5 - Estruturação do Footer
-
-### Estruturação via HTML5 e estilização via CSS3. Aplicado um efeito "hover" nos botões.
-
-![footerLanding](https://user-images.githubusercontent.com/115199808/224077538-cf22a22d-b55b-4b31-99ae-8f14080a659b.gif)
-
-<hr>
-
-# Link de Acesso ao Projeto (Vercel)
-
-https://landing-page-dnc-eosin.vercel.app
-
-<hr>
-
-# IDE Utilizada
-
-<div> 
-<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
-</div>
-
-<hr>
-
-# Tecnologias Utilizadas
-<div style="display: inline_block"><br>
+# Estrutura do projeto
+## Estrutura 🏗 e Estilização 👨‍🎨
+### Tecnologias Utilizadas
+<div style="display: inline_block">
   <img align="center" alt="Lucas-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">-
   <img align="center" alt="Lucas-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
 </div>
 
+### IDE Utilizada
+
+<div> 
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+</div>
+
+<hr>
+
+## Deployment ☁
+
+Deploy realizado pela plataforma Vercel. Clique no botão abaixo e acesse o projeto.<br>
+[![portfolio](https://img.shields.io/badge/-CLIQUE%20AQUI-yellowgreen)](https://landing-page-dnc-eosin.vercel.app)
+
+## Como rodar
+Clone esse repositório em um diretório na sua máquina local, abra o diretório utilizando a sua IDE de preferência e/ou abra o arquivo ```.hmtl``` em seu navegador.
